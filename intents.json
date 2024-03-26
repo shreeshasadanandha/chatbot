@@ -1,0 +1,81 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["hi", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is Simplilearn?"],
+         "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
+         "context": [""]
+        } 
+        {
+            "tag": "courses",
+            "patterns": ["What courses does Simplilearn offer?", "Can you recommend a course?", "I'm interested in learning. What courses do you have?"],
+            "responses": ["Simplilearn offers a wide range of courses including IT, business, digital marketing, data science, and more."]
+        },
+        {
+            "tag": "enroll",
+            "patterns": ["How can I enroll in a course?", "What is the enrollment process?", "I want to enroll in a course."],
+            "responses": ["You can enroll in a course on our website by selecting the course you're interested in and following the enrollment instructions."]
+         },
+        {
+            "tag": "support",
+            "patterns": ["I need help with my course", "How can I get support?", "Can you assist me with a technical issue?"],
+            "responses": ["Sure! Please contact our support team through our website or email, and they'll assist you with any issues or questions you have."]
+        },
+        {
+            "tag": "recommendation",
+            "patterns": ["Can you recommend a course for me?", "What course would you suggest for someone interested in programming?"],
+            "responses": ["Based on your interests, I recommend our 'Python Programming' course. It's great for beginners and covers essential programming concepts."]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["How can I provide feedback?", "I have some feedback for Simplilearn", "Where can I leave a review?"],
+            "responses": ["We appreciate your feedback! You can leave a review on our website or contact our support team to share your thoughts."]
+        },
+        {
+              "tag": "pricing",
+              "patterns": ["How much do Simplilearn courses cost?", "What is the pricing for courses?", "Can you provide information about course fees?"],
+              "responses": ["The pricing for Simplilearn courses varies depending on the course and its duration. You can find detailed pricing information on our website."]
+        },
+        {
+              "tag": "certification",
+              "patterns": ["Are Simplilearn courses certified?", "Do I get a certificate after completing a course?", "Are the certifications recognized?"],
+              "responses": ["Yes, Simplilearn courses offer industry-recognized certifications upon successful completion. Our certifications are highly regarded by employers."]
+        },
+        {
+              "tag": "refund",
+              "patterns": ["What is the refund policy for Simplilearn courses?", "Can I get a refund if I'm not satisfied with a course?", "How do I request a refund?"],
+              "responses": ["We offer a refund policy within a certain period after enrollment. Please refer to our website or contact our support team for details on our refund process."]
+        },
+        {
+              "tag": "career",
+              "patterns": ["How can Simplilearn courses help me in my career?", "Can you provide information about career benefits?", "What career opportunities can I expect after completing a course?"],
+              "responses": ["Simplilearn courses provide valuable skills and knowledge that can help you advance in your career. They are designed to equip you with in-demand skills sought by employers."]
+        },
+        {
+              "tag": "upcoming",
+              "patterns": ["Are there any upcoming courses or events?", "Can you tell me about upcoming workshops or webinars?", "What's new at Simplilearn?"],
+              "responses": ["Yes, we regularly host workshops, webinars, and other events. You can find information about upcoming events on our website or subscribe to our newsletter for updates."]
+        },
+        {
+              "tag": "payment",
+              "patterns": ["What payment methods are accepted for course enrollment?", "Can I pay for a course in installments?", "Is there a payment plan available?"],
+              "responses": ["We accept various payment methods, including credit/debit cards, PayPal, and bank transfers. Payment plans and installment options may be available for certain courses. Please check our website for details."]
+        }
+          ]
+        }
+          
+        
+    
